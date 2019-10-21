@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10660" started-at="2019-10-21T17:13:48Z" finished-at="2019-10-21T17:13:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10660" started-at="2019-10-21T17:13:48Z" finished-at="2019-10-21T17:13:59Z">
+      <class name="com.Test.API.CreateCustomerAPI">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.API.CreateCustomerAPI@7dc36524]" name="setup" is-config="true" duration-ms="3106" started-at="2019-10-21T22:43:48Z" finished-at="2019-10-21T22:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CreateCustomerValidateIDKey()[pri:0, instance:com.Test.API.CreateCustomerAPI@7dc36524]" name="CreateCustomerValidateIDKey" duration-ms="12" started-at="2019-10-21T22:43:51Z" finished-at="2019-10-21T22:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomerValidateIDKey -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.API.CreateCustomerAPI@7dc36524]" name="tearDown" is-config="true" duration-ms="930" started-at="2019-10-21T22:43:51Z" finished-at="2019-10-21T22:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.API.CreateCustomerAPI@7dc36524]" name="setup" is-config="true" duration-ms="369" started-at="2019-10-21T22:43:52Z" finished-at="2019-10-21T22:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CreateCustomerValidateIDValue()[pri:0, instance:com.Test.API.CreateCustomerAPI@7dc36524]" name="CreateCustomerValidateIDValue" duration-ms="5" started-at="2019-10-21T22:43:52Z" finished-at="2019-10-21T22:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomerValidateIDValue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.API.CreateCustomerAPI@7dc36524]" name="tearDown" is-config="true" duration-ms="234" started-at="2019-10-21T22:43:52Z" finished-at="2019-10-21T22:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.API.CreateCustomerAPI@7dc36524]" name="setup" is-config="true" duration-ms="90" started-at="2019-10-21T22:43:53Z" finished-at="2019-10-21T22:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CreateCustomerWithInValidKey()[pri:0, instance:com.Test.API.CreateCustomerAPI@7dc36524]" name="CreateCustomerWithInValidKey" duration-ms="2" started-at="2019-10-21T22:43:53Z" finished-at="2019-10-21T22:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomerWithInValidKey -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.API.CreateCustomerAPI@7dc36524]" name="tearDown" is-config="true" duration-ms="224" started-at="2019-10-21T22:43:53Z" finished-at="2019-10-21T22:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.API.CreateCustomerAPI@7dc36524]" name="setup" is-config="true" duration-ms="87" started-at="2019-10-21T22:43:53Z" finished-at="2019-10-21T22:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CreateCustomerWithValidKey(java.util.Hashtable)[pri:0, instance:com.Test.API.CreateCustomerAPI@7dc36524]" name="CreateCustomerWithValidKey" duration-ms="4418" started-at="2019-10-21T22:43:53Z" data-provider="dataCust" finished-at="2019-10-21T22:43:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{StatusCode=200, Description=A email, Email=a@a.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomerWithValidKey -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.API.CreateCustomerAPI@7dc36524]" name="tearDown" is-config="true" duration-ms="129" started-at="2019-10-21T22:43:58Z" finished-at="2019-10-21T22:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.API.CreateCustomerAPI@7dc36524]" name="setup" is-config="true" duration-ms="58" started-at="2019-10-21T22:43:58Z" finished-at="2019-10-21T22:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CreateCustomerWithValidKey(java.util.Hashtable)[pri:0, instance:com.Test.API.CreateCustomerAPI@7dc36524]" name="CreateCustomerWithValidKey" duration-ms="725" started-at="2019-10-21T22:43:58Z" data-provider="dataCust" finished-at="2019-10-21T22:43:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{StatusCode=200, Description=B email, Email=b@b.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomerWithValidKey -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.API.CreateCustomerAPI@7dc36524]" name="tearDown" is-config="true" duration-ms="163" started-at="2019-10-21T22:43:58Z" finished-at="2019-10-21T22:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.API.CreateCustomerAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
